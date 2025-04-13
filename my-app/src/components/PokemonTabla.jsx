@@ -30,7 +30,6 @@ function PokemonTabla() {
                 <Link
                   className="btn btn-outline-primary btn-sm"
                   to={`/pokemon/${poke.name}`}
-                  target="_blank"
                 >
                   Ver
                 </Link>
@@ -39,6 +38,7 @@ function PokemonTabla() {
           ))}
         </tbody>
       </table>
+      <Link to="/extras" className="btn btn-secondary">Ir a Extras</Link>
     </div>
   );
 }

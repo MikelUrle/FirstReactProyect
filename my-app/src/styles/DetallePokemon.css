@@ -1,0 +1,26 @@
+.detalle-pokemon .card {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .detalle-pokemon .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .pokemon-img {
+    width: 150px;
+    transition: transform 0.3s ease;
+  }
+  
+  .pokemon-img:hover {
+    transform: rotate(5deg) scale(1.1);
+  }
+  
+  .info p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
